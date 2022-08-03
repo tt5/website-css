@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-3xl;
+}
+
+.red {
+  @apply  bg-red-600;
+}
+
+.orange {
+   @apply bg-orange-500;
+}
+
+.yellow {
+   @apply bg-yellow-300;
+}
+
+.green {
+   @apply bg-green-600;
+}
+
+.cyan {
+   @apply bg-cyan-200;
+}
+
+.blue {
+  @apply bg-blue-700;
+}
+
+.magenta {
+  @apply bg-fuchsia-500;
+}
+
+.button {
+  @apply px-2 w-[5rem] h-[1.5rem] text-left;
+}
+
+* {
+  scrollbar-width: 0.5rem;
+  scrollbar-color: white transparent;
+}
