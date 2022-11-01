@@ -1,1 +1,3 @@
-npx tailwindcss ./src/input.css -o ./dist/output.css --minify
+wget -O alpha2.ttf https://github.com/mcroitor/chess-fonts/blob/main/ttf/alpha2.ttf?raw=true
+wget -O alpha2.ttf https://raw.githubusercontent.com/mcroitor/chess-fonts/main/ttf/alpha2.ttf
+npx tailwindcss ./src/index.css -o ./prod/index.css --minify

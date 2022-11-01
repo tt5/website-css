@@ -42,3 +42,8 @@ h1 {
   scrollbar-width: 0.5rem;
   scrollbar-color: white transparent;
 }
+
+@font-face {
+  font-family: 'alpha2';
+  src: url('/alpha2.ttf') format('truetype');
+}
