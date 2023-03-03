@@ -47,3 +47,7 @@ h1 {
   font-family: 'alpha2';
   src: url('/alpha2.ttf') format('truetype');
 }
+
+a {
+  @apply underline;
+}
